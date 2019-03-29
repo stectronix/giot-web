@@ -1,0 +1,3 @@
+[09-Aug-2018 17:38:55 America/Chicago] PHP Parse error:  syntax error, unexpected '=' in /home1/tarek/public_html/WebService/login.php on line 10
+[09-Aug-2018 17:40:56 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home1/tarek/public_html/WebService/login.php on line 12
+[09-Aug-2018 17:58:36 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home1/tarek/public_html/WebService/login.php on line 12

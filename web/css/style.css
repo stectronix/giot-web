@@ -1,0 +1,221 @@
+/* giot-web - Estilo principal */
+
+/*----------------------------------------------- Globales -------------------------------------------*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-attachment: fixed;
+    background-image: url('../img/background1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.titulo-pagina{
+    text-align: center;
+}
+
+p{
+    color: chocolate;
+    font-size: 30px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+h2{
+    color: chocolate;
+    text-align: center;
+}
+
+
+div.col-sm-9{
+    color: black;
+    font-weight: bold;
+}   
+
+div.avatar{
+    background-color: #C2E7F0;
+    background-image: url('../img/avatar-default.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.error{
+    color: #FF0000;
+}
+
+/*---------------------------------------Estilo de radio buttons-------------------------------------------------*/
+
+label.custom-control-label{
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    color: #000000;
+}
+
+/*--------------------------------------- estilo output de errores --------------------------------------------- */
+
+.errores{
+    padding: 10px 30px;
+}
+
+/*------------------------------------------- estilo de los inputs-------------------------------------- */
+
+input.form-control.input-lg:invalid {
+ 
+    border: 1px solid red;
+    
+}
+     
+    /* Estilo por defecto */
+     
+input.form-control.input-lg:valid {
+     
+    border: 1px solid green;
+    
+     
+}
+    /* Estilo por defecto */
+     
+input.form-control.input-lg:required:invalid {
+     
+    border: 1px solid red;
+    
+}
+     
+input.form-control.input-lg:required:valid {
+     
+    border: 1px solid green;
+     
+}
+
+/* input[value=""] + span::after {
+    content: "";
+}
+
+input:valid + span::after {
+    content: "\2713";
+    color: limegreen;
+}
+
+input:invalid + span::after {
+    content: "X";
+    color: #ce0000;
+} */
+
+/*----------------------------------------------- Pie de pagina -------------------------------------------*/
+
+/* Pantallas mas pequeñas */
+footer{
+    color: #DDD;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+footer a{
+    color: #DDD;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer a:hoover{
+    
+}
+
+footer a:focus{
+
+}
+
+footer div.row > div{
+    margin-bottom: 15px;
+}
+
+footer .enlaces-internos{
+    bottom: -10px
+    position: relative;
+}
+
+footer .iconos-redes-sociales > a{
+    /* background: #333; */
+    border-radius: 5px;
+    color: #FFF;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: normal;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 5px;
+    text-align: center;
+    width: 25px;
+}
+
+/* Pantallas mas grandes */
+@media only screen and (min-width: 768px){
+    body{
+        background-attachment: fixed;
+        background-image: url('../img/background1.jpg'); 
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 120px;
+        padding-top: 50px;
+    }
+
+    footer{
+        text-align: left;
+    }
+
+    footer div.row > div{
+        margin-bottom: 5px;
+    }    
+
+    footer .enlaces-internos{
+        bottom: -13px
+    }
+
+    footer .pie-derecho{
+        text-align: right;
+    }
+
+    footer .iconos-redes-sociales > a{
+        /* background: #333; */
+        /* display: inline-block; */
+        border-radius: 5px;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: normal;
+        height: 25px;
+        line-height: 25px;
+        margin-left: 5px;
+        text-align: center;
+        width: 25px;
+    }
+
+    /*.row{
+        border: red solid thin;
+    }
+
+    .col-sm-6{
+        border: green solid thin;
+    }*/
+}
+
+/*----------------------------------------------- Registro -------------------------------------------*/
+#pagina-registro{
+    /* border: red thin solid; */
+}
+
+#pagina-registro form{
+    /* border: blue thin solid; */
+}
